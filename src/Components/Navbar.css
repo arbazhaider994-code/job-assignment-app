@@ -1,0 +1,86 @@
+.navbar{
+  display: flex;
+  background-color: white;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center; 
+}
+.logoContainer{
+  width: 80px;
+}
+.logoContainer img{
+  width: 100%;
+  height: 100%;
+  border-radius: 60%;
+  object-fit: cover;
+}
+.linksContainer{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  font-size: 20px;
+  color: rgb(17, 16, 16);
+  font-weight: 500;
+}
+.searchEvent input{
+  border-radius: 5px;
+  padding: 3px 8px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: #dad9d9;
+  max-width: 300px;
+}
+.searchBtn{
+  border: none;
+  background-color: #151414;
+  color: white;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+.dropdown-toggle::after{
+  display: none;
+  content: none;
+}
+@media screen and (max-width: 970px){
+ .linksContainer{
+  gap: 30px;
+ } 
+}
+@media screen and (max-width: 880px){
+ .searchEvent input{
+  max-width: 200px;
+ } 
+}
+@media screen and (max-width: 790px){
+  .linksContainer{
+  gap: 15px;
+  font-size: 18px;
+ } 
+}
+@media screen and (max-width: 680px){
+  .searchEvent input{
+    max-width: 140px;
+  }
+}
+@media screen and (max-width: 520px){
+  .navbar{
+    padding: 5px 10px;
+  }
+  .dropdown-toggle{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .navbar{
+    padding: 5px 3px;
+  }
+  .dropdown-toggle{
+    margin-left: 20px;
+  }
+   .searchEvent input{
+    max-width: 100px;
+  }
+}

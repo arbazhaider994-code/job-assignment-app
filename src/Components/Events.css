@@ -1,0 +1,163 @@
+/* events cards styling */
+
+.eventHeader{
+  justify-content: space-between;
+}
+.noEvent{
+  text-align: center;
+}
+.noEventIcon{
+  color: darkred;
+  margin-left: 20px;
+  font-size: 60px;
+}
+
+.citiesList{
+  width: 200px;
+  font-size: 18px;
+  padding: 12px 5px;
+}
+
+/* media query event Header */
+@media screen and (max-width: 560px){
+.citiesList{
+  width: 130px;
+  padding: 8px 4px;
+}
+.eventsHeading h2{
+  font-size: 20px !important;
+}
+.noEvent{
+  font-size: 20px;
+}
+.noEventIcon{
+  font-size: 32px;
+}
+}
+@media screen and (max-width: 455px){
+.citiesList{
+  width: 100px;
+  padding: 8px 4px;
+}
+.eventsHeading h2{
+  font-size: 18px !important;
+}
+.noEvent{
+  font-size: 15px;
+}
+.noEventIcon{
+  font-size: 22px;
+}
+.option{
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 390px){
+.noEvent{
+  font-size: 13px;
+}
+.noEventIcon{
+  font-size: 18px;
+}
+}
+
+/* cards styling starts here */
+
+.cardsContainer{
+  padding: 0px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event{
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+  border-radius: 20px;
+  transition:  0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.cardImg{
+  width: 100%;
+  aspect-ratio: 16/9;  
+  overflow: hidden;
+  border-radius: 20px 20px 0px 0px;
+}
+.cardImg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.eventInfo{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1;
+} 
+.description{
+  min-height: 120px;
+}
+.location{
+  min-height: 70px;  
+}
+.eventName{
+  font-size: 24px;
+  font-weight: 700;
+} 
+.btnRegister{
+  padding: 10px 22px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+.btnRegister:hover {
+  background-color: #000;
+  transform: scale(1.05);
+}
+.event:hover {
+  transform: translateY(-8px), scale(1.01);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
+
+/* media querry event cards section */
+@media screen and (max-width: 660px){
+  .cardsContainer{
+    padding: 0px 20px;
+  }
+  .eventInfo{
+    padding: 12px;
+  }
+  .event p{
+    font-size: 14px;
+  }
+  .eventName{
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cardsContainer{
+    padding: 0px 5px;
+  }
+}
+@media screen and (max-width: 550px){
+.search-Event-Container h4{
+  font-size: 18px !important;
+}
+ .noEventFind{
+    font-size: 18px !important;
+ } 
+}
+
+@media screen and (max-width: 410px){
+.search-Event-Container h4{
+  font-size: 15px !important;
+}
+ .noEventFind{
+    font-size: 14px !important;
+ } 
+}

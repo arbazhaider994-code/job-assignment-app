@@ -1,0 +1,61 @@
+/* hero section styling here */
+
+.hero-info-Container{
+  position: relative;
+  padding: 120px 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-info{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.642);
+  max-width: 450px;
+  padding: 30px;
+  width: 100%;
+}
+.seeEventBtn{
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: 0.3s ease;
+}
+.seeEventBtn:hover{
+  transform: scale(1.08);
+  transition: 0.6s;
+  background-color: firebrick;
+  color: white;
+}
+@media screen and (max-width: 1040px){
+  .hero-info{
+    max-width: 380px;
+  }
+}
+@media screen and (max-width: 850px){
+  .hero-info{
+    max-width: 280px;
+  }
+    .hero-info h1{
+    font-size: 23px;
+  }
+    .hero-info p{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 578px){
+  .hero-info{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+    .hero-info h1{
+    font-size: 20px;
+  }
+}
