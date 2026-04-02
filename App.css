@@ -1,0 +1,430 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(244, 244, 244);
+}
+/* .navbar{
+  display: flex;
+  background-color: white;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center; 
+}
+.logoContainer{
+  width: 80px;
+}
+.logoContainer img{
+  width: 100%;
+  height: 100%;
+  border-radius: 60%;
+  object-fit: cover;
+}
+.linksContainer{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  font-size: 20px;
+  color: rgb(17, 16, 16);
+  font-weight: 500;
+}
+.searchEvent input{
+  border-radius: 5px;
+  padding: 3px 8px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: #dad9d9;
+}
+.searchBtn{
+  border: none;
+  background-color: #151414;
+  color: white;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+.dropdown-toggle::after{
+  display: none;
+  content: none;
+}
+
+@media screen and (max-width: 970px){
+ .linksContainer{
+  gap: 30px;
+ } 
+}
+@media screen and (max-width: 880px){
+ .searchEvent input{
+  max-width: 200px;
+ } 
+}
+@media screen and (max-width: 790px){
+  .linksContainer{
+  gap: 15px;
+  font-size: 18px;
+ } 
+}
+@media screen and (max-width: 658px){
+  .searchEvent input{
+    max-width: 120px;
+  }
+}
+@media screen and (max-width: 520px){
+  .navbar{
+    padding: 5px 10px;
+  }
+  .dropdown-toggle{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .navbar{
+    padding: 5px 3px;
+  }
+  .dropdown-toggle{
+    margin-left: 20px;
+  }
+   .searchEvent input{
+    max-width: 100px;
+  }
+} */
+/* hero section styling starts here */
+/* .hero-info-Container{
+  position: relative;
+  padding: 120px 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-info{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.642);
+  max-width: 450px;
+  padding: 30px;
+  width: 100%;
+}
+.seeEventBtn{
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: 0.3s ease;
+}
+.seeEventBtn:hover{
+  transform: scale(1.08);
+  transition: 0.6s;
+  background-color: firebrick;
+  color: white;
+}
+@media screen and (max-width: 1040px){
+  .hero-info{
+    max-width: 380px;
+  }
+}
+@media screen and (max-width: 850px){
+  .hero-info{
+    max-width: 280px;
+  }
+    .hero-info h1{
+    font-size: 23px;
+  }
+    .hero-info p{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 578px){
+  .hero-info{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+    .hero-info h1{
+    font-size: 20px;
+  }
+} */
+/* cards styling starts here */
+/* 
+.eventHeader{
+  justify-content: space-between;
+}
+.noEvent{
+  text-align: center;
+}
+.noEventIcon{
+  color: darkred;
+  margin-left: 20px;
+  font-size: 60px;
+}
+
+.citiesList{
+  width: 200px;
+  font-size: 18px;
+  padding: 12px 5px;
+} */
+
+/* media query event Header */
+/* @media screen and (max-width: 560px){
+.citiesList{
+  width: 130px;
+  padding: 8px 4px;
+}
+.eventsHeading h2{
+  font-size: 20px !important;
+}
+.noEvent{
+  font-size: 20px;
+}
+.noEventIcon{
+  font-size: 32px;
+}
+}
+@media screen and (max-width: 455px){
+.citiesList{
+  width: 100px;
+  padding: 8px 4px;
+}
+.eventsHeading h2{
+  font-size: 18px !important;
+}
+.noEvent{
+  font-size: 16px;
+}
+.noEventIcon{
+  font-size: 22px;
+}
+}
+
+@media screen and (max-width: 390px){
+.noEvent{
+  font-size: 13px;
+}
+.noEventIcon{
+  font-size: 18px;
+}
+} */
+
+/* cards styling starts here */
+/* 
+.cardsContainer{
+  padding: 0px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event{
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+  border-radius: 20px;
+  transition:  0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.cardImg{
+  width: 100%;
+  aspect-ratio: 16/9;  
+  overflow: hidden;
+  border-radius: 20px 20px 0px 0px;
+}
+.cardImg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.eventInfo{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1;
+} 
+.description{
+  min-height: 120px;
+}
+.location{
+  min-height: 70px;  
+}
+.eventName{
+  font-size: 24px;
+  font-weight: 700;
+} 
+.btnRegister{
+  padding: 10px 22px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+.btnRegister:hover {
+  background-color: #000;
+  transform: scale(1.05);
+}
+.event:hover {
+  transform: translateY(-8px), scale(1.01);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
+
+/* media querry event cards section */
+/* @media screen and (max-width: 660px){
+  .cardsContainer{
+    padding: 0px 20px;
+  }
+  .eventInfo{
+    padding: 12px;
+  }
+  .event p{
+    font-size: 14px;
+  }
+  .eventName{
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cardsContainer{
+    padding: 0px 5px;
+  } */
+
+/* contact us section styling starts here  */
+/* .contactUsContainer{
+  padding: 35px;
+} */
+
+/* form styling starts here  */
+/* .formContainer{
+  border-radius: 14px;
+  padding: 20px;
+}
+.formHeading{
+  text-align: center;
+}
+.formHeading hr{
+  height: 1px;
+  background-color: rgb(218, 216, 216);
+  opacity: 1;
+}
+.contactForm{
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form-label{
+  font-size: 18px;
+}
+#name, #email, #message{
+  border: 1.5px solid darkgrey;
+  font-size: 18px;
+}
+.formBtn{
+  align-self: flex-end;
+  background-color: rgb(22, 142, 216);
+  color:white;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 8px 20px;
+} */
+
+
+/* contact styling starts here  */
+/* .contact-Container{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+.contactInfo{
+  gap: 8px;
+}
+.ourLocation, .phoneNum{
+  align-items: flex-start;
+  gap: 12px;
+}
+.ourLocation{
+  max-width: 400px;
+}
+.locationIcon{
+  color: firebrick;
+  font-size: 22px;
+}
+.phoneIcon{
+  color: rgb(13, 112, 173);
+  font-size: 22px;
+}
+.contactDetails{
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+.contactUsHeading hr{
+  width: 20%;
+  height: 4px;
+  background-color: darkred;
+  opacity: 1;
+  margin: 0 auto;
+}
+iframe{
+  border-radius: 12px;
+}
+
+
+@media screen and (max-width: 940px) {
+  iframe{
+  width: 320px;
+  height: 240px;
+  }
+}
+@media screen and (max-width: 672px) {
+  iframe{
+  width: 250px;
+  height: 200px;
+  }
+ .contactDetails{
+  font-size: 14px;
+ }
+}
+@media screen and (max-width: 572px) {
+.contact-Container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0px;
+}
+iframe{
+  width: 100%;
+  height: 250px;
+  }
+}
+ */
+/* 
+@media screen and (max-width: 550px){
+.search-Event-Container h4{
+  font-size: 18px !important;
+}
+ .noEventFind{
+    font-size: 18px !important;
+ } 
+}
+
+@media screen and (max-width: 410px){
+.search-Event-Container h4{
+  font-size: 15px !important;
+}
+ .noEventFind{
+    font-size: 14px !important;
+ } 
+} */
